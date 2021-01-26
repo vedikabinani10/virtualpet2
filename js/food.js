@@ -19,6 +19,13 @@ class Food{
         }
         return this.foodStock;
     }
+    
+     addFood(){
+        if(this.foodStock<15 && this.foodStock>0){
+            this.foodStock = this.foodStock +1;
+        }
+        return this.foodStock;
+    }
 
     getFoodStock(){
         return this.foodStock;
